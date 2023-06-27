@@ -8,13 +8,28 @@
 .flex-conteiner{
     display: flex;
     justify-content: center;
-
 }
 /* header */
 header{
     background-color: orangered;
     height: 100px;
     margin-bottom: 20px;
+}
+.flex-conteiner-header{
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    width: 1290px;
+    align-items: center;
+}
+.header-sub{
+    color: white;
+}
+.icon{
+    color: white;
+}
+#logo{
+    height: 50px;
 }
 /* main */
 .img-main{
@@ -37,4 +52,27 @@ header{
 .real-price{
     text-decoration: line-through;
     color: gray;
+}
+.img-conteiner{
+    position: relative;
+}
+.sconto{
+    position: absolute;
+    bottom: 10%;
+    background-color: red;
+    left: 5px;
+}
+.sostenibilita{
+    position: absolute;
+    bottom: 10%;
+    background-color: green;
+    left: 50px;
+}
+.cuore{
+    position: absolute;
+    top: 5%;
+    background-color: white;
+    right: 0;
+    font-size: 20px;
+    padding: 10px;
 }
