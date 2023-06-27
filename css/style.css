@@ -27,3 +27,14 @@ header{
     margin-bottom: 10px;
     margin-left: 10px;
 }
+.subtitles{
+    font-size: 0.9rem;
+    color: gray;
+}
+.price{
+    color: red;
+}
+.real-price{
+    text-decoration: line-through;
+    color: gray;
+}
